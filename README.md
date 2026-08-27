@@ -8,7 +8,7 @@ JobPilot is a responsive job application tracking web application designed to he
 
 ## 📌 Features
 
-- 🔐 Sign Up and Sign In
+- 🔐 Sign Up and Sign Out 
 - 💾 Remember logged-in users using Local Storage
 - 🚪 Log Out functionality
 - 🔎 Search for job opportunities

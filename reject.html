@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JobPilot - Rejected</title>
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?
+    family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/reject.css">
+        <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+
+<body>
+
+
+<div class="app">
+
+
+
+    <header class="topbar">
+
+        <div class="brand">
+
+            <div class="log">
+
+                <i class="fa-solid fa-route"></i>
+
+            </div>
+
+            <span>
+                JobPilot
+            </span>
+
+        </div>
+
+
+        <button class="join-btn">
+            Sign Up
+        </button>
+
+    </header>
+
+
+    <main class="rejected-page">
+
+        <section class="rejected-header">
+
+            <div>
+
+                <h1>
+                    Rejected Applications
+                </h1>
+
+                <p>
+                    Keep track of opportunities that didn't work out.
+                </p>
+
+            </div>
+
+
+            <div class="rejected-total">
+
+                <span id="rejectedCount">
+                    0
+                </span>
+
+                <small>
+                    Rejected
+                </small>
+
+            </div>
+
+        </section>
+
+
+
+    
+
+        <section class="rejected-stats">
+
+
+            <div class="stat-card">
+
+                <i class="fa-solid fa-circle-xmark"></i>
+
+                <h2 id="totalRejected">
+                    0
+                </h2>
+
+                <p>
+                    Total Rejected
+                </p>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <i class="fa-solid fa-calendar-xmark"></i>
+
+                <h2 id="monthlyRejected">
+                    0
+                </h2>
+
+                <p>
+                    This Month
+                </p>
+
+            </div>
+
+
+        </section>
+
+
+
+    
+        <section class="rejected-list-section">
+
+
+            <div class="section-heading">
+
+                <h2>
+                    Previous Applications
+                </h2>
+
+
+                <span id="rejectedLabel">
+                    0 applications
+                </span>
+
+            </div>
+
+
+
+
+            <div class="rejected-list"></div>
+
+
+        </section>
+
+
+
+        <section
+            class="empty-rejected"
+            style="display: none;"
+        >
+
+            <i class="fa-solid fa-circle-check"></i>
+
+            <h2>
+                No Rejected Applications
+            </h2>
+
+            <p>
+                Great! You don't have any rejected applications yet.
+            </p>
+
+        </section>
+
+
+
+
+
+        <div class="page-links">
+
+
+            <a
+                href="offers.html"
+                class="back-link"
+            >
+
+                <i class="fa-solid fa-arrow-left"></i>
+
+                <span>
+                    Back to Offers
+                </span>
+
+            </a>
+
+
+            <a
+                href="opportunities.html"
+                class="next-link"
+            >
+
+                <span>
+                    View Opportunities
+                </span>
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+
+        </div>
+
+
+    </main>
+
+
+</div>
+
+<script src="javascript/auth.js"></script>
+
+<script src="javascript/reject.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>JobPilot - Contact</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?
+    family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+
+<body>
+
+<div class="app">
+
+    <header class="topbar">
+
+        <div class="brand">
+
+            <div class="log">
+
+                <i class="fa-solid fa-route"></i>
+
+            </div>
+
+            <span>
+                JobPilot
+            </span>
+
+        </div>
+
+
+        <button
+            class="join-btn"
+            type="button"
+        >
+            Sign Up
+        </button>
+
+    </header>
+
+
+    <main class="contact-page">
+
+
+        <section class="contact-header">
+
+            <h1>
+                Get in Touch
+            </h1>
+
+            <p>
+                Have a question, suggestion, or feedback?
+                We'd love to hear from you.
+            </p>
+
+        </section>
+
+
+        <section class="contact-content">
+
+
+            <div class="contact-info">
+
+                <h2>
+                    Let's Connect
+                </h2>
+
+                <p class="info-text">
+                    Whether you need help with JobPilot
+                    or have an idea to make it better,
+                    feel free to reach out.
+                </p>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Email
+                        </h3>
+
+                        <p>
+                            support@jobpilot.com
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+
+                        <i class="fa-solid fa-comment-dots"></i>
+
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Feedback
+                        </h3>
+
+                        <p>
+                            Tell us how we can improve JobPilot.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+
+                        <i class="fa-solid fa-circle-question"></i>
+
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Need Help?
+                        </h3>
+
+                        <p>
+                            Ask us about tracking applications
+                            and managing your job search.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="contact-form-box">
+
+                <h2>
+                    Send a Message
+                </h2>
+
+
+                <form id="contactForm">
+
+
+                    <input
+                        type="hidden"
+                        name="access_key"
+                        value="475f86e3-f64c-4f38-899c-34576be79fb7"
+                    >
+
+
+                    <input
+                        type="hidden"
+                        name="from_name"
+                        value="JobPilot Contact Form"
+                    >
+
+
+                    <div class="input-group">
+
+                        <label for="contactName">
+                            Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="contactName"
+                            name="name"
+                            placeholder="Enter your name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="input-group">
+
+                        <label for="contactEmail">
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="contactEmail"
+                            name="email"
+                            placeholder="Enter your email"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="input-group">
+
+                        <label for="contactSubject">
+                            Subject
+                        </label>
+
+                        <select
+                            id="contactSubject"
+                            name="subject"
+                            required
+                        >
+
+                            <option value="">
+                                Select a subject
+                            </option>
+
+                            <option value="Need Help">
+                                Need Help
+                            </option>
+
+                            <option value="Feedback">
+                                Feedback
+                            </option>
+
+                            <option value="Report a Bug">
+                                Report a Bug
+                            </option>
+
+                            <option value="Suggestion">
+                                Suggestion
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="input-group">
+
+                        <label for="contactMessage">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="contactMessage"
+                            name="message"
+                            rows="5"
+                            placeholder="Write your message..."
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="send-btn"
+                    >
+
+                        <i class="fa-solid fa-paper-plane"></i>
+
+                        Send Message
+
+                    </button>
+
+
+                </form>
+
+
+                <div
+                    class="success-message"
+                    id="successMessage"
+                >
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    <div>
+
+                        <strong>
+                            Message Sent!
+                        </strong>
+
+                        <p>
+                            Thanks for reaching out.
+                            We'll get back to you soon.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <section class="faq-section">
+
+            <h2>
+                Quick Help
+            </h2>
+
+
+            <div class="faq-grid">
+
+
+                <div class="faq-card">
+
+                    <i class="fa-solid fa-list-check"></i>
+
+                    <h3>
+                        Track Applications
+                    </h3>
+
+                    <p>
+                        Use Browse Jobs to find opportunities
+                        and track the ones you're interested in.
+                    </p>
+
+                </div>
+
+
+                <div class="faq-card">
+
+                    <i class="fa-solid fa-chart-line"></i>
+
+                    <h3>
+                        Monitor Progress
+                    </h3>
+
+                    <p>
+                        Keep track of applications, interviews,
+                        offers, and rejected applications.
+                    </p>
+
+                </div>
+
+
+                <div class="faq-card">
+
+                    <i class="fa-solid fa-chart-pie"></i>
+
+                    <h3>
+                        View Analytics
+                    </h3>
+
+                    <p>
+                        Check your job search statistics
+                        and understand your progress.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <footer class="footer-section">
+
+        <nav class="navigation">
+
+
+            <a
+                href="index.html"
+                class="nav-item"
+            >
+
+                <i class="fa-solid fa-house"></i>
+
+                <span>
+                    Home
+                </span>
+
+            </a>
+
+
+            <a
+                href="opportunities.html"
+                class="nav-item"
+            >
+
+                <i class="fa-solid fa-briefcase"></i>
+
+                <span>
+                    Opportunities
+                </span>
+
+            </a>
+
+
+            <a
+                href="jobs.html"
+                class="nav-item"
+            >
+
+                <i class="fa-solid fa-calendar"></i>
+
+                <span>
+                    Browse Jobs
+                </span>
+
+            </a>
+
+
+            <a
+                href="analytics.html"
+                class="nav-item"
+            >
+
+                <i class="fa-solid fa-chart-column"></i>
+
+                <span>
+                    Analytics
+                </span>
+
+            </a>
+
+
+            <a
+                href="contact.html"
+                class="nav-item active"
+            >
+
+                <i class="fa-solid fa-person"></i>
+
+                <span>
+                    Contact
+                </span>
+
+            </a>
+
+
+        </nav>
+
+    </footer>
+
+
+</div>
+
+
+<script src="javascript/auth.js"></script>
+
+<script src="javascript/contact.js"></script>
+
+
+</body>
+
+</html>

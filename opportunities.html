@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobPilot - Opportunities</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?
+family=Montserrat:ital,wght@0,100..900;1,100..900&
+family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/home.css">
+<link rel="stylesheet" href="css/opp.css">
+     <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <!--Header-->
+     <div class="app">
+    <header class="topbar">
+       <div class="brand">
+        <div class="log">
+            <i class="fa-solid fa-route"></i>
+        </div>
+        <span>JobPilot</span>
+       </div>
+       <button class="join-btn">
+        Sign Up
+    </button>
+    </header>
+    <!--opportunties-->
+    <main class="opportunities-page">
+        <p class="title">Your Job Search at a glance</h1>
+        <section class="overview">
+            <!--Applications-->
+        <a href="applications.html" class="overview-card"">
+            <i class="fa-solid fa-file-lines"></i>
+            <div class="count" id="applicationsCount">0</div>
+                <h3>Applications</h3>
+        </a>
+        <!--Interviews-->
+         <a href="interviews.html" class="overview-card">
+            <i class="fa-solid fa-user-clock" ></i>
+            <div class="count" id="interviewsCount">0</div>
+                <h3>Interviews</h3>
+         </a>
+        <!--Offers-->
+           <a href="offers.html"  class="overview-card">
+            <i class="fa-solid fa-handshake"></i>
+            <div class="count" id="offersCount">0</div>
+                <h3>Offers</h3>
+           </a>
+        <!--Rejected-->
+        <a href="reject.html" class="overview-card">
+            <i class="fa-solid fa-circle-xmark"></i>
+            <div class="count" id="rejectedCount">0</div>
+                <h3>Rejected</h3>
+        </a>
+        </section>
+    </main>
+    <footer class="footer-section">
+        <nav class="navigation">
+            <a href="index.html" class= "nav-item active">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+            </a>
+            <a href="opportunities.html" class="nav-item">
+                <i class="fa-solid fa-briefcase"></i>
+                <span>Opportunties</span>
+            </a>
+             <a href="jobs.html" class="nav-item">
+                <i class="fa-solid fa-calendar"></i>
+                <span>Browse Jobs</span>
+            </a>
+            <a href="analytics.html" class="nav-item">
+                <i class="fa-solid fa-chart-column"></i>
+                <span>Analytics</span>
+            </a>
+             <a href="contact.html" class="nav-item">
+                <i class="fa-solid fa-person"></i>
+                <span>Contact</span>
+            </a>
+        </nav>
+        </footer>
+   <script src="javascript/auth.js"></script>
+ <script src="javascript/opp.js"></script>
+</body>
+</html>

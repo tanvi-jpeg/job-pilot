@@ -1,0 +1,514 @@
+/*Reject-Page*/
+.rejected-page {
+    width: 90%;
+
+    max-width: 1000px;
+
+    flex: 1;
+
+    margin: 0 auto;
+
+    padding: 45px 0 30px;
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+
+
+.rejected-header {
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-bottom: 25px;
+}
+
+
+.rejected-header h1 {
+    color: #123f36;
+
+    font-size: 30px;
+
+    font-weight: 600;
+
+    margin-bottom: 5px;
+}
+
+
+.rejected-header p {
+    color: #777;
+
+    font-size: 13px;
+}
+
+
+.rejected-total {
+    min-width: 100px;
+
+    padding: 12px 18px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    background: #ffffff;
+
+    border: 1px solid #dfe7e2;
+
+    border-radius: 12px;
+}
+
+
+.rejected-total span {
+    color: #123f36;
+
+    font-size: 24px;
+
+    font-weight: 600;
+}
+
+
+.rejected-total small {
+    color: #888;
+
+    font-size: 11px;
+}
+
+
+
+.rejected-stats {
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px;
+
+    margin-bottom: 35px;
+}
+
+
+.stat-card {
+    padding: 20px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    background: #ffffff;
+
+    border: 1px solid #dfe7e2;
+
+    border-radius: 14px;
+
+    transition: 0.2s ease;
+}
+
+
+.stat-card:hover {
+    transform: translateY(-3px);
+
+    border-color: #d88b8b;
+
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+
+.stat-card i {
+    color: #c55a5a;
+
+    font-size: 20px;
+
+    margin-bottom: 8px;
+}
+
+
+.stat-card h2 {
+    color: #123f36;
+
+    font-size: 28px;
+
+    font-weight: 600;
+}
+
+
+.stat-card p {
+    color: #777;
+
+    font-size: 12px;
+}
+
+
+
+.rejected-list-section {
+    width: 100%;
+}
+
+
+.section-heading {
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-bottom: 18px;
+}
+
+
+.section-heading h2 {
+    color: #123f36;
+
+    font-size: 22px;
+
+    font-weight: 600;
+}
+
+
+.section-heading span {
+    color: #888;
+
+    font-size: 12px;
+}
+
+
+
+.rejected-list {
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+
+
+.rejected-card {
+    width: 100%;
+
+    padding: 18px 20px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+    background: #ffffff;
+
+    border: 1px solid #e7dada;
+
+    border-radius: 14px;
+
+    transition: 0.2s ease;
+}
+
+
+.rejected-card:hover {
+    transform: translateY(-3px);
+
+    border-color: #d88b8b;
+
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+
+.rejected-info {
+    flex: 1;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+}
+
+
+.company-logo {
+    width: 50px;
+
+    height: 50px;
+
+    flex-shrink: 0;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #fdf0f0;
+
+    border-radius: 10px;
+
+    color: #c55a5a;
+
+    font-size: 22px;
+
+    overflow: hidden;
+}
+
+
+.company-logo-img {
+    width: 100%;
+
+    height: 100%;
+
+    padding: 8px;
+
+    object-fit: contain;
+}
+
+
+.rejected-info h3 {
+    color: #123f36;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+    margin-bottom: 3px;
+}
+
+
+.rejected-info p {
+    color: #777;
+
+    font-size: 12px;
+}
+
+
+
+
+.rejected-date {
+    color: #888;
+
+    font-size: 12px;
+
+    white-space: nowrap;
+}
+
+
+.status.rejected {
+    padding: 6px 13px;
+
+    background: #fdecec;
+
+    color: #c55a5a;
+
+    border-radius: 20px;
+
+    font-size: 11px;
+
+    font-weight: 500;
+
+    white-space: nowrap;
+}
+
+
+.empty-rejected {
+    width: 100%;
+
+    padding: 45px 20px;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    background: #ffffff;
+
+    border: 1px dashed #dfe7e2;
+
+    border-radius: 14px;
+}
+
+
+.empty-rejected > i {
+    color: #7fba88;
+
+    font-size: 32px;
+
+    margin-bottom: 12px;
+}
+
+
+.empty-rejected h2 {
+    color: #123f36;
+
+    font-size: 20px;
+
+    font-weight: 600;
+
+    margin-bottom: 5px;
+}
+
+
+.empty-rejected p {
+    color: #777;
+
+    font-size: 12px;
+}
+
+
+.page-links {
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-top: auto;
+
+    padding-top: 50px;
+}
+
+
+.back-link,
+.next-link {
+    display: flex;
+
+    align-items: center;
+
+    gap: 7px;
+
+    color: #7fba88;
+
+    font-size: 14px;
+
+    text-decoration: none;
+
+    transition: 0.2s ease;
+}
+
+
+.back-link:hover,
+.next-link:hover {
+    color: #123f36;
+}
+/*Mobile-View*/
+@media (max-width: 600px) {
+
+    .app {
+        width: 94%;
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .topbar {
+        margin-top: 8px;
+        padding: 13px 15px;
+    }
+
+    .brand {
+        font-size: 16px;
+    }
+
+    .log {
+        font-size: 17px;
+    }
+
+    .join-btn {
+        padding: 7px 11px;
+        font-size: 10px;
+    }
+
+    .rejected-page {
+        padding: 25px 0 40px;
+    }
+
+    .rejected-header {
+        text-align: center;
+    }
+
+    .rejected-header h1 {
+        font-size: 25px;
+    }
+
+    .rejected-header p {
+        font-size: 11px;
+    }
+
+    .rejected-stats {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .stat-card {
+        padding: 18px;
+    }
+
+    .rejected-list-section {
+        margin-top: 25px;
+    }
+
+    .section-heading h2 {
+        font-size: 20px;
+    }
+
+    .rejected-list {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .rejected-card {
+        padding: 16px;
+    }
+
+    .empty-rejected {
+        padding: 30px 15px;
+    }
+
+    .page-links {
+        padding-top: 30px;
+    }
+
+    .back-link,
+    .next-link {
+        font-size: 10px;
+    }
+
+    .navigation {
+        gap: 3px;
+        justify-content: space-around;
+    }
+
+    .nav-item {
+        padding: 6px 4px;
+        gap: 5px;
+    }
+
+    .nav-item i {
+        font-size: 15px;
+    }
+
+    .nav-item span {
+        font-size: 9px;
+    }
+}

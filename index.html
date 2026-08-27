@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobPilot - Home </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?
+family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+     <!--Home Page-->
+    <div class="app">
+    <header class="topbar">
+       <div class="brand">
+        <div class="log">
+            <i class="fa-solid fa-route"></i>
+        </div>
+        <span>JobPilot</span>
+       </div>
+       <button class="join-btn">
+        Sign Up
+    </button>
+    </header>
+   <main class="main-content">
+
+    <section class="welcome">
+        <h1>Welcome to JobPilot</h1>
+        <h3>Navigate &#183; Track &#183; Succeed</h3>
+    </section>
+
+    <section class="work-section">
+
+        <div class="steps">
+
+            <div class="step">
+                <span class="step-number">1</span>
+
+                <div class="step-icon">
+                    <i class="fa-solid fa-file-signature"></i>
+                </div>
+
+                <h3>APPLY</h3>
+
+                <p>
+                    Find opportunities and apply for jobs
+                    that match your goals.
+                </p>
+            </div>
+
+
+            <div class="step">
+                <span class="step-number">2</span>
+
+                <div class="step-icon">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+
+                <h3>TRACK</h3>
+
+                <p>
+                    Keep your applications and interview
+                    progress organized in one place.
+                </p>
+            </div>
+
+
+            <div class="step">
+                <span class="step-number">3</span>
+
+                <div class="step-icon">
+                    <i class="fa-solid fa-bullseye"></i>
+                </div>
+
+                <h3>GET HIRED</h3>
+
+                <p>
+                    Monitor your progress and stay focused
+                    on landing your next opportunity.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+         <!--footer-->
+        <footer class="footer-section">
+        <nav class="navigation">
+            <a href="index.html" class= "nav-item active">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+            </a>
+            <a href="opportunities.html" class="nav-item">
+                <i class="fa-solid fa-briefcase"></i>
+                <span>Opportunties</span>
+            </a>
+             <a href="jobs.html" class="nav-item">
+                <i class="fa-solid fa-calendar"></i>
+                <span>Browse Jobs</span>
+            </a>
+            <a href="analytics.html" class="nav-item">
+                <i class="fa-solid fa-chart-column"></i>
+                <span>Analytics</span>
+            </a>
+             <a href="contact.html" class="nav-item">
+                <i class="fa-solid fa-person"></i>
+                <span>Contact</span>
+            </a>
+        </nav>
+        </footer>
+  
+
+<div class="auth-overlay">
+
+    <div class="auth-box">
+
+        <button class="close-auth">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <div class="auth-header">
+            <i class="fa-solid fa-route"></i>
+            <h2>Welcome to JobPilot</h2>
+            <p>Sign up to start tracking your job search.</p>
+        </div>
+
+        <form class="auth-form">
+
+            <div class="input-group">
+                <label for="userName">Name</label>
+
+                <input type="text" id="userName" placeholder="Enter your name" required>
+            </div>
+
+            <div class="input-group">
+                <label for="userEmail">Email</label>
+
+                <input type="email" id="userEmail"
+                    placeholder="Enter your email"
+                    required
+                >
+            </div>
+
+    <div class="input-group">
+
+        <label for="userPassword">
+            Password
+        </label>
+
+        <input
+            type="password"
+            id="userPassword"
+            placeholder="Create a password"
+            minlength="6"
+            required
+        >
+
+    </div>
+
+            <button type="submit" class="auth-btn">
+                Get Started
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+<script src="javascript/home.js"></script>
+<script src="javascript/auth.js"></script>
+</body>
+</html>

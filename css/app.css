@@ -1,0 +1,634 @@
+/*app-page*/
+.applications-page {
+    width: 90%;
+    max-width: 1000px;
+
+    flex: 1;
+
+    margin: 0 auto;
+
+    padding: 45px 0 30px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.application-heading {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+      margin:30px;
+}
+
+
+.application-heading h1 {
+    color: #123f36;
+    font-size: 30px;
+    font-weight: 600;
+
+    margin-bottom: 5px;
+}
+
+
+.application-heading p {
+    color: #777;
+
+    font-size: 13px;
+}
+
+
+
+
+.application-total {
+    min-width: 100px;
+
+    padding: 12px 18px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: #ffffff;
+
+    border: 1px solid #dfe7e2;
+    border-radius: 12px;
+}
+
+
+.application-total span {
+    color: #123f36;
+
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.application-total small {
+    color: #888;
+
+    font-size: 11px;
+}
+
+.application-tools {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+
+    margin-bottom: 25px;
+}
+
+
+.search-box {
+    flex: 1;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+}
+
+
+.search-box i {
+    position: absolute;
+
+    left: 14px;
+
+    color: #888;
+
+    font-size: 14px;
+}
+
+
+.search-input {
+    width: 100%;
+
+    padding: 12px 15px 12px 40px;
+
+    border: 1px solid #dfe7e2;
+    border-radius: 10px;
+
+    outline: none;
+
+    background: #ffffff;
+
+    color: #123f36;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+
+    transition: 0.2s ease;
+}
+
+
+.search-input:focus {
+    border-color: #7fba88;
+
+    box-shadow:
+        0 0 0 3px rgba(127, 186, 136, 0.12);
+}
+
+
+.search-filter {
+    width: 160px;
+
+    padding: 12px 14px;
+
+    border: 1px solid #dfe7e2;
+    border-radius: 10px;
+
+    outline: none;
+
+    background: #ffffff;
+
+    color: #123f36;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+
+    cursor: pointer;
+}
+
+
+.search-filter:focus {
+    border-color: #7fba88;
+}
+
+
+.application-list {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+
+.application-card {
+    width: 100%;
+
+    padding: 18px 20px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 20px;
+
+    background: #ffffff;
+
+    border: 1px solid #dfe7e2;
+    border-radius: 14px;
+
+    transition: 0.2s ease;
+}
+
+
+.application-card:hover {
+    transform: translateY(-3px);
+
+    border-color: #7fba88;
+
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+
+
+
+.company-info {
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+}
+
+
+.company-logo {
+    width: 50px;
+    height: 50px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #edf6ef;
+
+    border-radius: 10px;
+
+    color: #7fba88;
+
+    font-size: 22px;
+}
+
+
+.company-info h3 {
+    color: #123f36;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    margin-bottom: 3px;
+}
+
+
+.company-info p {
+    color: #777;
+
+    font-size: 12px;
+}
+
+
+.application-details {
+    min-width: 130px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-end;
+
+    gap: 5px;
+}
+
+
+.application-details p {
+    color: #888;
+
+    font-size: 11px;
+}
+
+.status {
+    padding: 6px 13px;
+
+    border-radius: 20px;
+
+    font-size: 11px;
+    font-weight: 500;
+}
+
+
+/* Applied */
+
+.status.applied {
+    background: #edf6ef;
+    color: #5f9f68;
+}
+
+
+/* Interview */
+
+.status.interview {
+    background: #fff5d9;
+    color: #c99625;
+}
+
+
+/* Offer */
+
+.status.offer {
+    background: #eaf2ff;
+    color: #4f76ad;
+}
+
+
+
+.status.rejected {
+    background: #fdecec;
+    color: #c55a5a;
+}
+
+.empty-state {
+    width: 100%;
+    min-height:190px;
+    padding: 50px 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    background: #ffffff;
+
+    border: 1px dashed #dfe7e2;
+    border-radius: 14px;
+
+     margin-top: 10px;
+    padding: 30px 20px;
+}
+
+
+.empty-state > i {
+    color: #7fba88;
+
+    font-size: 32px;
+
+    margin-bottom: 10px;
+}
+
+
+.empty-state h2 {
+    color: #123f36;
+
+    font-size: 20px;
+    font-weight: 600;
+   margin: 0 0 5px 0;
+}
+
+
+.empty-state p {
+    color: #777;
+
+    font-size: 13px;
+
+    margin-bottom: 20px;
+}
+
+
+.browse-jobs-btn {
+    display: flex;
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 10px 17px;
+
+    background: #1f4a40;
+    color: #ffffff;
+
+    border-radius: 9px;
+
+    text-decoration: none;
+
+    font-size: 13px;
+    font-weight: 500;
+
+    transition: 0.2s ease;
+}
+
+
+.browse-jobs-btn:hover {
+    background: #123f36;
+
+    transform: translateY(-2px);
+}
+
+
+.page-links {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: auto;
+
+    padding-top: 45px;
+}
+
+
+.back-link,
+.next-link {
+    display: flex;
+    align-items: center;
+
+    gap: 7px;
+
+    color: #7fba88;
+
+    font-size: 14px;
+
+    text-decoration: none;
+
+    transition: 0.2s ease;
+}
+
+
+.back-link:hover,
+.next-link:hover {
+    color: #123f36;
+}
+
+
+.footer-section {
+    width: 100%;
+
+    padding: 10px 0 15px;
+
+    background: #f7f8fc;
+}
+
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 60px;
+
+    padding: 10px 20px;
+}
+
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 12px 16px;
+
+    border-radius: 10px;
+
+    color: #171717;
+
+    text-decoration: none;
+
+    font-size: 13px;
+
+    cursor: pointer;
+
+    transition: 0.2s ease;
+}
+
+
+.nav-item i {
+    font-size: 17px;
+}
+
+
+.nav-item:hover {
+    color: #7fba88;
+}
+
+
+.nav-item.active {
+    color: #7fba88;
+}
+
+
+.empty-message {
+    width: 100%;
+
+    padding: 45px;
+
+    text-align: center;
+
+    color: #777;
+
+    background: #ffffff;
+
+    border: 1px solid #dfe7e2;
+
+    border-radius: 14px;
+}
+
+
+.empty-message i {
+    display: block;
+
+    color: #7fba88;
+
+    font-size: 30px;
+
+    margin-bottom: 10px;
+}
+/*Mobile View*/
+@media (max-width: 600px) {
+
+    .app {
+        width: 94%;
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .topbar {
+        margin-top: 8px;
+        padding: 13px 15px;
+    }
+
+    .brand {
+        font-size: 16px;
+    }
+
+    .log {
+        font-size: 17px;
+    }
+
+    .join-btn {
+        padding: 7px 11px;
+        font-size: 10px;
+    }
+
+    .applications-page {
+        padding: 25px 0 40px;
+    }
+
+    .application-heading {
+        text-align: center;
+    }
+
+    .application-heading h1 {
+        font-size: 25px;
+    }
+
+    .application-heading p {
+        font-size: 11px;
+    }
+
+    .application-tools {
+        flex-direction: column;
+        gap: 9px;
+    }
+
+    .search-box,
+    .search-filter {
+        width: 100%;
+    }
+
+    .search-input {
+        font-size: 12px;
+    }
+
+    .application-list {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .application-card {
+        padding: 16px;
+    }
+
+    .application-total {
+        margin-left:28px;
+        font-size: 12px;
+    }
+
+    .company-info {
+        gap: 9px;
+    }
+
+    .company-logo {
+        width: 42px;
+        height: 42px;
+    }
+
+    .company-info h3 {
+        font-size: 14px;
+    }
+
+    .company-info p {
+        font-size: 10px;
+    }
+
+    .application-details {
+        gap: 6px;
+    }
+
+    .application-details p {
+        font-size: 9px;
+    }
+
+    .status {
+        padding: 4px 8px;
+        font-size: 9px;
+    }
+
+    .page-links {
+        padding-top: 30px;
+    }
+
+    .back-link,
+    .next-link {
+        font-size: 10px;
+    }
+
+    .navigation {
+        gap: 3px;
+        justify-content: space-around;
+    }
+
+    .nav-item {
+        padding: 6px 4px;
+        gap: 5px;
+    }
+
+    .nav-item i {
+        font-size: 15px;
+    }
+
+    .nav-item span {
+        font-size: 9px;
+    }
+}
